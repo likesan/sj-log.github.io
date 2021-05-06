@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git page on Bud</title>
+    <link>https://sj-log.github.io/tags/Git-page/</link>
+    <description>Recent content in Git page on Bud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sj-log.github.io/tags/Git-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simply publishing hugo blog onto git page</title>
+      <link>https://sj-log.github.io/posts/solved-hugo-mkdir-error-with-git/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/solved-hugo-mkdir-error-with-git/</guid>
+      <description>Problem #  While trying to deploy on git repository within a simple command, hugo has occured an error before building its result.
+ERROR 2021/04/05 19:35:35 mkdir /docs: read-only file system Situation #   added publishDir : /docs as far as git-pages requires the /docs folder to deploy. Automatically wished to my docs folder deployed through git push master master. However, hugo commands got a stuck with it.  How did I solve #   removed publishDir : /docs in config.</description>
+    </item>
+    
+  </channel>
+</rss>

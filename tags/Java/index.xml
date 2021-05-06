@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Bud</title>
+    <link>https://sj-log.github.io/tags/Java/</link>
+    <description>Recent content in Java on Bud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Mar 2021 18:45:45 +0900</lastBuildDate><atom:link href="https://sj-log.github.io/tags/Java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installed Java 16 for M1 Mac</title>
+      <link>https://sj-log.github.io/posts/installed-java-16-for-m1-mac/</link>
+      <pubDate>Thu, 25 Mar 2021 18:45:45 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/installed-java-16-for-m1-mac/</guid>
+      <description>I had to install Java in my new Macbook Air which has M1 chipset. It was a prerequisite for Installation of vim-grammarous
+I&amp;rsquo;ve tried to install within Brew, but It couldn&amp;rsquo;t recognize Java proferly. java -version didn&amp;rsquo;t appear a successful message.
+downloaded from here AZUI</description>
+    </item>
+    
+  </channel>
+</rss>

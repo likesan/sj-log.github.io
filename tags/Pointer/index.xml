@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pointer on Bud</title>
+    <link>https://sj-log.github.io/tags/Pointer/</link>
+    <description>Recent content in Pointer on Bud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 27 Aug 2020 21:41:02 +0900</lastBuildDate><atom:link href="https://sj-log.github.io/tags/Pointer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array Pointer</title>
+      <link>https://sj-log.github.io/posts/TIL-array-pointer/</link>
+      <pubDate>Thu, 27 Aug 2020 21:41:02 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/TIL-array-pointer/</guid>
+      <description>Concepts #   Array is a pointer. But It&amp;rsquo;s const pointer. (how?) Array name cannot change as a const variable. Array name is a pointer that points to the First element of the Array Array of pointers easy to make a bunch of arrays at once.  Tip #   Use either array subscript notation or pointer dereferencing to access array and pointer values. Using pointers allows more flexibility than arrays.</description>
+    </item>
+    
+  </channel>
+</rss>

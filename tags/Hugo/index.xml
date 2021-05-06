@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Bud</title>
+    <link>https://sj-log.github.io/tags/Hugo/</link>
+    <description>Recent content in Hugo on Bud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sj-log.github.io/tags/Hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simply publishing hugo blog onto git page</title>
+      <link>https://sj-log.github.io/posts/solved-hugo-mkdir-error-with-git/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/solved-hugo-mkdir-error-with-git/</guid>
+      <description>Problem #  While trying to deploy on git repository within a simple command, hugo has occured an error before building its result.
+ERROR 2021/04/05 19:35:35 mkdir /docs: read-only file system Situation #   added publishDir : /docs as far as git-pages requires the /docs folder to deploy. Automatically wished to my docs folder deployed through git push master master. However, hugo commands got a stuck with it.  How did I solve #   removed publishDir : /docs in config.</description>
+    </item>
+    
+    <item>
+      <title>How to Express Emoji in Custom Hugo</title>
+      <link>https://sj-log.github.io/posts/How-to-express-emoji-in-custom-hugo/</link>
+      <pubDate>Tue, 23 Mar 2021 22:49:44 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/How-to-express-emoji-in-custom-hugo/</guid>
+      <description>It&amp;rsquo;s easy. #   Setting enableEmoji=true into config.toml in root directory(not in theme&amp;rsquo;s config.toml file) add the parent tag where you want to express emoji, as the following below &amp;lt;body {{ emojify 1}}&amp;gt;  References #  https://stackoverflow.com/questions/41047920/adding-emoji-to-a-hugo-page-variable/41280669#41280669
+https://www.webfx.com/tools/emoji-cheat-sheet/
+https://gohugo.io/functions/emojify/</description>
+    </item>
+    
+    <item>
+      <title>How to Fix Nil Error During Setting Sass Hugo</title>
+      <link>https://sj-log.github.io/posts/How-to-fix-nil-error-during-setting-sass-hugo/</link>
+      <pubDate>Sun, 21 Mar 2021 17:55:05 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/How-to-fix-nil-error-during-setting-sass-hugo/</guid>
+      <description>Error #   index.html:6:46&amp;quot;: execute of template failed: template: index.html:6:46: executing &amp;ldquo;index.html&amp;rdquo; at &amp;lt;resources.ToCSS&amp;gt;: error calling ToCSS: type  not supported in Resource transformations
+ It was a bit time wasting. but the asset folder must be created in root folder.
+Solution #  then the following lines worked.
+{{ $sass := resources.Get &amp;quot;sass/main.scss&amp;quot; }} {{ $style := $sass | resources.ToCSS }} &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;{{ $style.Permalink }}&amp;quot;&amp;gt; Attention #  There is another asset folder in resource/_gen.</description>
+    </item>
+    
+  </channel>
+</rss>

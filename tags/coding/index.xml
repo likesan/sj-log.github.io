@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on Bud</title>
+    <link>https://sj-log.github.io/tags/coding/</link>
+    <description>Recent content in coding on Bud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 25 Apr 2021 14:56:31 +0900</lastBuildDate><atom:link href="https://sj-log.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Npm Error Fix Babel Core</title>
+      <link>https://sj-log.github.io/posts/npm-error-fix-barbel-core/</link>
+      <pubDate>Sun, 25 Apr 2021 14:56:31 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/npm-error-fix-barbel-core/</guid>
+      <description>Error #  npm ERR! Found: @babel/core@7.12.3 npm ERR! node_modules/@babel/core npm ERR! @babel/core@&amp;quot;7.12.3&amp;quot; from the root project npm ERR! peer @babel/core@&amp;quot;^7.0.0&amp;quot; from @babel/helper-compilation-targets@7.13.16 npm ERR! node_modules/@babel/helper-compilation-targets npm ERR! @babel/helper-compilation-targets@&amp;quot;^7.13.0&amp;quot; from @babel/helper-define-polyfill-provider@0.2.0 npm ERR! node_modules/@babel/helper-define-polyfill-provider npm ERR! @babel/helper-define-polyfill-provider@&amp;quot;^0.2.0&amp;quot; from babel-plugin-polyfill-corejs2@0.2.0 npm ERR! node_modules/babel-plugin-polyfill-corejs2 npm ERR! babel-plugin-polyfill-corejs2@&amp;quot;^0.2.0&amp;quot; from @babel/preset-env@7.13.15 npm ERR! node_modules/@babel/preset-env npm ERR! 2 more (babel-plugin-polyfill-corejs3, babel-plugin-polyfill-regenerator) npm ERR! @babel/helper-compilation-targets@&amp;quot;^7.13.8&amp;quot; from @babel/plugin-proposal-object-rest-spread@7.13.8 npm ERR! node_modules/@babel/plugin-proposal-object-rest-spread npm ERR! @babel/plugin-proposal-object-rest-spread@&amp;quot;^7.13.8&amp;quot; from @babel/preset-env@7.13.15 npm ERR!</description>
+    </item>
+    
+    <item>
+      <title>How to Use Find</title>
+      <link>https://sj-log.github.io/posts/how-to-use-find/</link>
+      <pubDate>Sun, 25 Apr 2021 10:38:16 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/how-to-use-find/</guid>
+      <description>Find is frequently used to looking for a path of a file. Especially When I just want to use the cmd only, as I wanna be used to the way of non-gui handling on PC. Yes, I wanna be a dev. At least wanna keep my Terminali handling skill get improved.
+Well, So Find is the mostly used cmd, which is really good to know how to use it well.</description>
+    </item>
+    
+    <item>
+      <title>Simply publishing hugo blog onto git page</title>
+      <link>https://sj-log.github.io/posts/solved-hugo-mkdir-error-with-git/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/solved-hugo-mkdir-error-with-git/</guid>
+      <description>Problem #  While trying to deploy on git repository within a simple command, hugo has occured an error before building its result.
+ERROR 2021/04/05 19:35:35 mkdir /docs: read-only file system Situation #   added publishDir : /docs as far as git-pages requires the /docs folder to deploy. Automatically wished to my docs folder deployed through git push master master. However, hugo commands got a stuck with it.  How did I solve #   removed publishDir : /docs in config.</description>
+    </item>
+    
+    <item>
+      <title>How to Fix Nil Error During Setting Sass Hugo</title>
+      <link>https://sj-log.github.io/posts/How-to-fix-nil-error-during-setting-sass-hugo/</link>
+      <pubDate>Sun, 21 Mar 2021 17:55:05 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/How-to-fix-nil-error-during-setting-sass-hugo/</guid>
+      <description>Error #   index.html:6:46&amp;quot;: execute of template failed: template: index.html:6:46: executing &amp;ldquo;index.html&amp;rdquo; at &amp;lt;resources.ToCSS&amp;gt;: error calling ToCSS: type  not supported in Resource transformations
+ It was a bit time wasting. but the asset folder must be created in root folder.
+Solution #  then the following lines worked.
+{{ $sass := resources.Get &amp;quot;sass/main.scss&amp;quot; }} {{ $style := $sass | resources.ToCSS }} &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;{{ $style.Permalink }}&amp;quot;&amp;gt; Attention #  There is another asset folder in resource/_gen.</description>
+    </item>
+    
+    <item>
+      <title>How to Solve Killed Git Error in Homebrew Mac</title>
+      <link>https://sj-log.github.io/posts/How-to-solve-killed-git-error-in-homebrew-mac/</link>
+      <pubDate>Sat, 20 Mar 2021 20:09:00 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/How-to-solve-killed-git-error-in-homebrew-mac/</guid>
+      <description>Error occured during Git installation without xcode #  $ git zsh: killed git What I have was only brew. Didn&amp;rsquo;t want to install xcode
+Check #  $ brew config HOMEBREW_VERSION: &amp;gt;=2.5.0 (shallow or no git repository) ORIGIN: (none) HEAD: (none) Last commit: never Core tap ORIGIN: (none) Core tap HEAD: (none) Core tap last commit: never Core tap branch: (none) HOMEBREW_PREFIX: /opt/homebrew HOMEBREW_CASK_OPTS: [] HOMEBREW_MAKE_JOBS: 8 Homebrew Ruby: 2.</description>
+    </item>
+    
+    <item>
+      <title>Learning Shell is like a playing game!</title>
+      <link>https://sj-log.github.io/posts/Shell-seems-a-playing-game/</link>
+      <pubDate>Tue, 25 Aug 2020 08:59:44 +0900</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/Shell-seems-a-playing-game/</guid>
+      <description>Well, Still there are some things that I should have to keep learning. C Language, and shell are the things.
+I didn&amp;rsquo;t start yet about C lang, but The shell.
+Shell scripts seem very useful more than any other language. #  Javascript, Java, etc. They need for only specific environment. On Web, or on a program. But the shell, When you have any of O/S, as there is basically installed shell.</description>
+    </item>
+    
+    <item>
+      <title>How to Set Repeat Key Speed in Terminal</title>
+      <link>https://sj-log.github.io/posts/How-to-set-repeat-key-speed-in-terminal/</link>
+      <pubDate>Wed, 29 Jul 2020 09:03:44 +0800</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/How-to-set-repeat-key-speed-in-terminal/</guid>
+      <description>How to #  xset r rate 250 60
+Conclusion #  There is another way as
+sudo kbdrate -r 10.9 -d 250 but There seems a complaint that doens&amp;rsquo;t speed up much.
+But for me, xset r rate 250 60 does work :D</description>
+    </item>
+    
+    <item>
+      <title>Decided on Learning C Language 2020</title>
+      <link>https://sj-log.github.io/posts/Decided-on-learning-C-language-2020/</link>
+      <pubDate>Mon, 27 Jul 2020 11:56:38 +0800</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/Decided-on-learning-C-language-2020/</guid>
+      <description>So I&amp;rsquo;ll get start to learn C language. #  Even I didn&amp;rsquo;t start or make any installation with that in this Linux laptop, but I believe there would be many profit for myself.
+C language can be used in broad fields. #  As it&amp;rsquo;s called as a middle ware language, that can cover even in Embeded environment.
+As I&amp;rsquo;m into permaculture, one day I&amp;rsquo;ll try to make the better enviroment construct by the installation of sensors in a place to optimize the growth of crops.</description>
+    </item>
+    
+    <item>
+      <title>Fork app subtree was the solution to upload specific folder</title>
+      <link>https://sj-log.github.io/posts/Fork-app-subtree-was-the-solution-to-upload-specific-folder/</link>
+      <pubDate>Sun, 19 Jul 2020 15:41:04 +0800</pubDate>
+      
+      <guid>https://sj-log.github.io/posts/Fork-app-subtree-was-the-solution-to-upload-specific-folder/</guid>
+      <description>Git was super difficult for me. #  but it took the time to get used with, inevitably.
+The matter of fact is that I needed to upload public folder which is the projection for this hugo blog.
+When I just able to upload the publicfolder to the gh-pages only, during wrapping up all git changes, I was the only way to seperately manage the hugo blog well.
+the right way was subtree.</description>
+    </item>
+    
+  </channel>
+</rss>
